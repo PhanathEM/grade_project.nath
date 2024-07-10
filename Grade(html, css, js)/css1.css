@@ -1,0 +1,88 @@
+.nosifer-regular {
+  font-family: "Nosifer", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Nosifer", sans-serif;
+  font-size: 25px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #272727;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  flex-direction: column;
+  color: #e5e5e5;
+}
+
+.grade-calculator {
+  border: 1px solid #5e5e5e;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.075);
+  text-align: center;
+  color: #ffffff;
+  background-color: #444444;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  background: linear-gradient(43deg, #4158d0 0%, #c850c0 46%, #ff4c64 100%);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(43deg, #384377 0%, #80427b 46%, #81414a 100%);
+}
+
+#gradeOutput {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+h2 {
+  font-family: Righteous;
+  font-weight: 400;
+  font-style: normal;
+  background-image: linear-gradient(43deg, #4158d0 0%, #c850c0 46%, #ff4c64 100%);
+  background-clip: text;
+  color: transparent;
+}
+#colormy {
+  color: rgb(0, 163, 178);
+}
+#colorhomework {
+  color: rgb(255, 0, 93);
+}

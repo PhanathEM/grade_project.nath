@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" href="css1.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+      </style>
+  </head>
+  <body>
+    <h1><span id="colormy">My</span><span id="colorhomework"> Homework</span></h1>
+    <div class="grade-calculator">
+      <h2>See Your Grade Here</h2> 
+      <form id="gradeForm">
+        <label for="score">Enter Score: 0-100</label><br>
+        <input type="number" id="score" name="score" placeholder="Enter Score..." min="0" max="100" required
+        />
+        <button type="submit">Show Grade</button>
+      </form>
+      <div id="gradeOutput"></div>
+    </div>
+    <script src="js1.js"></script>
+  </body>
+</html>
